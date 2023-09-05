@@ -32,7 +32,7 @@ const FormInputTasks = (props) => {
             />
             {!taskNameInput.length && (
               <div className="text-danger px-4 py-2">
-                Bạn chưa nhập Nội dung
+                Bạn chưa nhập NỘI DUNG
               </div>
             )}
           </div>
@@ -61,7 +61,7 @@ const FormInputTasks = (props) => {
             </div>
             {!taskNameDate.length && (
               <div className="text-danger px-2 py-2">
-                Bạn chưa chọn Ngày Nhắc
+                Bạn chưa chọn NGÀY NHẮC
               </div>
             )}
           </div>

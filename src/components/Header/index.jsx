@@ -13,7 +13,7 @@ const Header = (props) => {
         new Date(item.taskNameDate).getFullYear() === new Date().getFullYear()
       ) {
         arr.push(
-          <h2 className="card-header mb-1 p-3 rounded-3 bg-secondary text-danger">
+          <h2 className="card-header mb-1 p-3 rounded-3 bg-light text-danger">
             (^ _ ^)___ {item.taskNameInput} ___(^ _ ^)
           </h2>
         );
